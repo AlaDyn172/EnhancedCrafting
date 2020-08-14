@@ -1,0 +1,19 @@
+name: EnhancedCrafting
+version: 1.5
+api-version: 1.13
+description: This plugin adds Crafting Recipes for Minecraft Items who doesn't have one
+author: [AlaDyn172]
+
+main: xyz.AlaDyn172.EnhancedCrafting.Main
+
+commands:
+    ecraft:
+        description: Use the main command of Enhanced Crafting.
+
+permissions:
+    ecraft.use:
+        description: Permission to use the main command of Enhanced Crafting.
+        default: op
+    ecraft.reload:
+        description: Permission to use the reload config command.
+        default: op
